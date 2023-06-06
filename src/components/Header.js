@@ -1,5 +1,6 @@
 import React from "react";
 import ajay2 from "../assets/ajay2.png";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
