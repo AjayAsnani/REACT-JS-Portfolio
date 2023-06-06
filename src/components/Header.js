@@ -9,7 +9,9 @@ const Header = () => {
           <a href="#">
             <img src={ajay2} alt="name" className="h-[80px] " />
           </a>
-          <button className="btn btn-sm">Work with me</button>
+         <Link to="contact">
+            <button className="btn btn-sm">Work with me</button>
+          </Link>
         </div>
       </div>
     </header>
