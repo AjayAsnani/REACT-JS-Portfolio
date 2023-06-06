@@ -26,7 +26,9 @@ const Work = () => {
                 Creating beautiful and functional user experiences with the
                 power of code and design.
               </p>
-              <button className="btn btn-sm">View all projects</button>
+             <Link to="services">
+                <button className="btn btn-sm">View all projects</button>
+              </Link>
             </div>
             {/*image*/}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
