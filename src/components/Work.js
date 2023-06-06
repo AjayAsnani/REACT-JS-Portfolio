@@ -4,6 +4,7 @@ import { fadeIn } from "../variants";
 import img1 from "../assets/work1.png";
 import img2 from "../assets/works2.png";
 import img3 from "../assets/works3.png";
+import { Link } from "react-scroll";
 const Work = () => {
   return (
     <section className="section" id="work">
